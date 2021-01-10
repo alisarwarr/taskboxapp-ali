@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    #design {
+        font-family: myfont;
+    }
+    button {
+        outline: none !important;
+    }
+}
+@font-face {
+    src: url("./myfont.ttf");
+    font-family: myfont;
+}
+
+
+
+
+
+
+
+
+.app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(83, 51, 237, 1);
+
+    .heading {
+        width: 40%;
+        span {
+            width: 100%;
+            font-size: 2.85rem;
+            font-family: myfont !important;
+            letter-spacing: 0.25rem !important;
+            border-radius: 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+
+    ul {
+        margin-top: -0.3rem;
+        background-color: rgb(243, 253, 205);
+        li {
+            p {
+                margin-top: -0.225rem;
+                margin-left: -1rem;
+                word-spacing: 0.2rem;
+                font-family: myfont;
+            }
+        }
+    }
+
+    .button {
+        width: 40%;
+        font-weight: bold;
+        padding: 0.925rem;
+        margin-top: -0.1rem;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-transform: inherit;
+    }
+
+    .jumbotron {
+        text-align: center;
+        height: 47.65%;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: myfont;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p {
+                font-family: monospace;
+                font-size: 1.5rem;
+                word-spacing: -0.1rem;
+            }
+            span {
+                padding-right: 0.5rem;
+            }
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.905rem;
+            }        
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1326px) {
+    html {
+       font-size: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+       font-size: 95%;
+    }
+
+    ul {
+        margin-top: -0.25rem !important;
+        li {
+            p {
+                margin-left: -1.1rem !important;
+            }
+        }
+    }
+
+    .heading {
+        span {
+            font-size: 2.65rem !important;
+        }
+    }
+}
+@media (max-width: 1100px) {
+    html {
+       font-size: 90%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-left: -1.4rem !important;
+            }
+        }
+    }
+
+    .heading {
+        span {
+            font-size: 2.5rem !important;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    html {
+       font-size: 85%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-left: -1.7rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    html {
+       font-size: 80%;
+    }
+
+    ul {
+        margin-top: -0.275rem !important;
+        li {
+            p {
+                margin-left: -2rem !important;
+            }
+        }
+    }
+
+    .button {
+        height: 3.45rem;
+    }
+}
+@media (max-width: 770px) {
+    html {
+       font-size: 75%;
+    }
+
+    ul {
+        margin-top: -0.3rem !important;
+        li {
+            p {
+                margin-left: -2.35rem !important;
+            }
+        }
+    }
+
+    .heading {
+        span {
+            font-size: 2.4rem !important;
+        }
+    }
+
+    .button {
+        height: 3.4rem;
+    }
+}
+@media (max-width: 680px) {
+    html {
+       font-size: 70%;
+    }
+
+    ul {
+        margin-top: -0.435rem !important;
+        li {
+            p {
+                margin-left: -2.7rem !important;
+            }
+        }
+    }
+
+    .button {
+        height: 3.375rem;
+    }
+}
+@media (max-width: 600px) {
+    html {
+       font-size: 65%;
+    }
+
+    ul {
+        margin-top: -0.5rem !important;
+        li {
+            p {
+                margin-left: -3rem !important;
+            }
+        }
+    }
+
+    .button {
+        height: 3.35rem;
+    }
+}
+@media (max-width: 530px) {
+    html {
+       font-size: 60%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-left: -3.75rem !important;
+            }
+        }
+    }
+
+    .heading {
+        width: 75% !important;
+        span {
+            height: 5.315rem;
+            line-height: 40px;
+            font-size: 1.8rem !important;
+        }
+    }
+
+    .button {
+        width: 75% !important;
+        font-size: 1.2rem;
+        height: 4.515rem;
+    }
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 57.75%;
+    }
+
+    ul {
+        margin-top: -0.625rem !important;
+        li {
+            p {
+                margin-left: -4.05rem !important;
+            }
+        }
+    }
+
+    .heading {
+        span {
+            line-height: 35.85px;
+        }
+    }
+}
+@media (max-width: 350px) {
+    html {
+       font-size: 55%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-left: -4.25rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 275px) {
+    html {
+       font-size: 54%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-top: -0.325rem !important;
+                margin-left: -4.5rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 250px) {
+    html {
+       font-size: 50%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-left: -5.075rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 230px) {
+    html {
+       font-size: 45%;
+    }
+
+    ul {
+        li {
+            p {
+                margin-top: -0.15rem !important;
+                margin-left: -5.825rem !important;
+            }
+        }
+    }
+}
+@media (max-width: 190px) {
+    html {
+       font-size: 43.25%;
+    }
+
+    .heading {
+        span {
+            line-height: 25.85px;
+        }
+    }
+
+    .button {
+        height: 4.35rem;
+    }
+}
